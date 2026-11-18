@@ -1457,3 +1457,18 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+#services table {
+  border-collapse: collapse;
+}
+
+#services table,
+#services th,
+#services td {
+  border: 1px solid #272829;
+}
+
+#services th,
+#services td {
+  padding: 8px;
+}

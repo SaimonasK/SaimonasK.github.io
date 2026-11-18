@@ -1,0 +1,285 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Optima", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a252f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c3e50;
+  border-bottom: 2px solid #bdc3c7;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2980b9;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #34495e;
+  font-style: italic;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #555555;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7f8c8d;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Optima", sans-serif;
+  font-size: 18px; 
+  line-height: 1.4;
+  color: #616c77;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+.btn {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2c3e50;
+  padding: 10px 22px;
+  border: 2px solid #2c3e50;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover {
+  background-color: #1a252f;
+  border-color: #1a252f;
+  color: #f1c40f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+.btn:active {
+  background-color: #0e1318;
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  font-family: "Times New Roman", Times, serif;
+  color: #2980b9;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+a:visited {
+  color: #5b2c6f;
+}
+
+a:hover {
+  color: #1a252f;
+  border-bottom: 1px solid #1a252f;
+}
+
+a:active {
+  color: #d35400;
+  border-bottom: 1px solid #d35400;
+}
+
+.about.section,
+.resume.section,
+.portfolio.section {
+  padding: 100px 0;
+}
+
+.about .section-title,
+.resume .section-title,
+.portfolio .section-title {
+  padding-bottom: 100px;
+  margin-bottom: 10px;
+}
+
+.about .content {
+  padding: 24px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 14px;
+  background-color: var(--surface-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.about .row > div:first-child img {
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+.skills .progress {
+  height: auto;
+  margin-bottom: 14px;
+  padding: 14px 16px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 10px;
+  background-color: var(--surface-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.skills .progress .skill {
+  margin-bottom: 8px;
+}
+
+.skills .progress-bar-wrap {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.resume .resume-item {
+  margin-bottom: 18px;
+  padding: 20px 20px 20px 24px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 12px;
+  background-color: var(--surface-color);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
+
+.portfolio .portfolio-item {
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  border-radius: 12px;
+}
+
+.services table {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border-radius: 12px;
+  background-color: var(--surface-color);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.services th,
+.services td {
+  padding: 12px 16px;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+}
+
+.services .row > ul,
+.services .row > ol {
+  padding: 20px 20px 20px 40px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 12px;
+  background-color: var(--surface-color);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.services video,
+.services iframe {
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact .info-item {
+  padding: 16px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 12px;
+  background-color: var(--surface-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.contact .info-item + .info-item {
+  margin-top: 16px;
+}
+
+.contact .php-email-form {
+  padding: 24px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 14px;
+  background-color: var(--surface-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
+.contact .php-email-form textarea {
+  border-radius: 8px;
+}
+
+.section-title h2 {
+  border-bottom: none;
+}
+
+.section-title h2::after {
+  display: none;
+}
+
+.section-title h2::before {
+  width: 85%;
+}
+
+.navmenu a,
+.navmenu a:focus {
+  color: var(--nav-color);
+  padding: 10px 16px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 86%);
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 86%);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--surface-color), var(--accent-color) 5%);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.navmenu a:hover,
+.navmenu .active,
+.navmenu .active:focus,
+.navmenu li:hover > a {
+  color: var(--contrast-color);
+  border-color: var(--accent-color);
+  background: var(--accent-color);
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--accent-color), transparent 65%);
+}
+
+.scroll-top {
+  width: 52px;
+  height: 52px;
+  border: 2px solid color-mix(in srgb, var(--contrast-color), transparent 15%);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-top:hover {
+  border-bottom: 2px solid color-mix(in srgb, var(--contrast-color), transparent 15%);
+  transform: translateY(-4px);
+  box-shadow: 0 9px 22px rgba(0, 0, 0, 0.24);
+}
